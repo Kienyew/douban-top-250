@@ -1,11 +1,11 @@
-import dataclasses
 import sys
 import json
+import dataclasses
 from typing import Iterator
-import bs4
-import requests
 from dataclasses import dataclass
 
+import bs4
+import requests
 
 @dataclass
 class Movie:
